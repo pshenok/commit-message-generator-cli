@@ -1,0 +1,24 @@
+{
+  "name": "commit-message-generator-cli",
+  "version": "1.0.7",
+  "description": "A CLI tool to generate commit messages using GPT-4 API",
+  "main": "index.mjs",
+  "bin": {
+    "commit-message-generator-cli": "bin.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pshenok/commit-message-generator-cli.git"
+},
+  "scripts": {
+    "start": "node ./bin.mjs"
+  },
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5",
+    "openai": "^3.2.1",
+    "simple-git": "^3.17.0",
+    "yargs": "^17.7.1"
+  }
+}
