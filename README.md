@@ -1,6 +1,6 @@
 # Commit Message Generator CLI
 
-A Node.js command-line interface (CLI) tool to generate commit messages using the GPT-4 API. This tool will analyze your uncommitted code changes and suggest 5 commit messages. You can select one of the suggested messages, and the tool will output a `git commit` command with the chosen message.
+A Node.js command-line interface (CLI) tool to generate commit messages using the GPT API. This tool will analyze your uncommitted code changes and suggest 5 commit messages. You can select one of the suggested messages, and the tool will output a `git commit` command with the chosen message.
 
 ## Features
 
